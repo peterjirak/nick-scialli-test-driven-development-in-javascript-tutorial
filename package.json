@@ -1,0 +1,14 @@
+{
+  "name": "nick-scialli-test-driven-development-in-javascript-tutorial",
+  "version": "1.0.0",
+  "description": "I am reviewing test driven development. I created this JavaScript project with npm init to follow along with Nick Scialli's test-driven development tutorial. Link: https://www.youtube.com/watch?v=SbKPgaRZsxA",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.5.0"
+  }
+}
