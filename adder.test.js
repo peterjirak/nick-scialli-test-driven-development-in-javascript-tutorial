@@ -18,5 +18,10 @@ describe(
                 expect(adder(1, 2, 3)).toBe(6)
             }
         );
+        it ("should return 0 if it is invoked with no inputs",
+            () => {
+                expect().toBe(0)
+            }
+        );
     }
 )
