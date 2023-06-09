@@ -23,5 +23,10 @@ describe(
                 expect(adder()).toBe(0)
             }
         );
+        it ("should expect any number of numbers",
+            () => {
+                expect(adder(1, 2, 3, 4, 5, 6)).toBe(21)
+            }
+        );
     }
 )
