@@ -1,3 +1,3 @@
-const adder = (a, b=0, c=0)  => a + b + c;
+const adder = (...numbers)  => numbers.reduce((accumulator, value) => accumulator + value);
 
 module.exports = adder;
