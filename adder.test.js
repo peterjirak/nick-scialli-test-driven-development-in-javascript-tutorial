@@ -20,7 +20,7 @@ describe(
         );
         it ("should return 0 if it is invoked with no inputs",
             () => {
-                expect().toBe(0)
+                expect(adder()).toBe(0)
             }
         );
     }
